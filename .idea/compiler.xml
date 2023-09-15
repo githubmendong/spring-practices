@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="guestbook03" />
+        <module name="emaillist03" />
+        <module name="hellospring" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="hellospring" target="17" />
       <module name="hellospring2" target="17" />
     </bytecodeTargetLevel>
   </component>
