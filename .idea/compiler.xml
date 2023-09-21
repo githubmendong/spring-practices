@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="fileupload" />
         <module name="aoptest" />
         <module name="logex" />
         <module name="mysite03" />
@@ -16,6 +17,8 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="aopest" target="17" />
+      <module name="hellospring (1)" target="17" />
+      <module name="hellospring (2)" target="17" />
       <module name="hellospring2" target="17" />
       <module name="mysite03 (1) (com.poscodx)" target="17" />
       <module name="mysite03 (2) (org.poscodx)" target="20" />
