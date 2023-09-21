@@ -12,25 +12,25 @@ import com.poscodx.fileupload.service.FileUploadService;
 
 @Controller
 public class FileUploadController {
-    @Autowired
-    private FileUploadService fileUploadService;
+	@Autowired
+	private FileUploadService fileUploadService;
+	
+	@RequestMapping("/form")
+	public String form() {
+		return "form";
+	}
+	
+	@RequestMapping(value="/upload", method=RequestMethod.POST)
+	public String upload(
+		@RequestParam("e") String email,
+		@RequestParam("f") MultipartFile file,
+		Model model) {
+		System.out.println("--->" + email);
 
-    @RequestMapping("/form")
-    public String form() {
-        return "form";
-    }
+		/* 이미지 파일 업로드 처리 */
+		String url = fileUploadService.restore(file);
 
-    @RequestMapping(value="/upload", method=RequestMethod.POST)
-    public String upload(
-            @RequestParam("e") String email,
-            @RequestParam("f") MultipartFile file,
-            Model model) {
-        System.out.println("--->" + email);
-
-        /* 이미지 파일 업로드 처리 */
-        String url = fileUploadService.restore(file);
-
-        model.addAttribute("url", url);
-        return "result";
-    }
+		model.addAttribute("url", url);
+		return "result";
+	}
 }

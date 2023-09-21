@@ -1,0 +1,16 @@
+
+n
+java:S2259"LA "NullPointerException" could be thrown; "originFilename" is nullable here.(†ô…¹úÿÿÿÿ8¸—£³«1
+V
+java:S3516"9Refactor this method to not always return the same value.(§Ì¤ö8¸—£³«1
+q
+java:S3008
+"TRename this field "SAVE_PATH" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ûı’¯8¹—£³«1
+^
+java:S1075
+"ARefactor your code to get this URI from a customizable parameter.(Ûı’¯8¼—£³«1
+]
+java:S1854";Remove this useless assignment to local variable "extName".(†ô…¹úÿÿÿÿ8Á—£³«1
+N
+java:S1481",Remove this unused "extName" local variable.(†ô…¹úÿÿÿÿ8Ì—£³«1
+L	java:S106"+Replace this use of System.out by a logger.(ºÿÿùÿÿÿÿ8Ì—£³«1
