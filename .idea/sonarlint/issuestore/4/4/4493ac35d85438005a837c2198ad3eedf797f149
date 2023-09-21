@@ -1,0 +1,12 @@
+
+cWeb:DoctypePresenceCheck":Insert a <!DOCTYPE> declaration to before this <html> tag.(œ÷Ãûÿÿÿÿ
+Z	Web:S5254"@Add "lang" and/or "xml:lang" attributes to this "<html>" element(œ÷Ãûÿÿÿÿ
+MWeb:TableWithoutCaptionCheck" Add a description to this table.(™×¸Êÿÿÿÿÿ
+?	Web:S5256"%Add "<th>" headers to this "<table>".(™×¸Êÿÿÿÿÿ
+I	Web:S1827"/Remove this deprecated "cellpadding" attribute.(™×¸Êÿÿÿÿÿ
+I	Web:S1827"/Remove this deprecated "cellspacing" attribute.(™×¸Êÿÿÿÿÿ
+C	Web:S1827")Remove this deprecated "align" attribute.(šÓ›Ûÿÿÿÿÿ
+>	Web:S1827")Remove this deprecated "align" attribute.(¾Ìß€
+>	Web:S1827")Remove this deprecated "width" attribute.(¾Ìß€
+=	Web:S1827")Remove this deprecated "width" attribute.(êà³
+=	Web:S1827")Remove this deprecated "align" attribute.(û»”=

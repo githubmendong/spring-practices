@@ -6,13 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="aoptest" />
+        <module name="mysite03" />
         <module name="guestbook03" />
         <module name="emaillist03" />
         <module name="hellospring" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="aopest" target="17" />
       <module name="hellospring2" target="17" />
+      <module name="mysite03 (1) (com.poscodx)" target="17" />
+      <module name="mysite03 (2) (org.poscodx)" target="20" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -1,0 +1,11 @@
+
+]
+java:S11926"GDefine a constant instead of duplicating this literal "error:" 3 times.(Œý’è
+X
+java:S2259r"BA "NullPointerException" could be thrown; "conn" is nullable here.(Ä×Óù
+@	java:S1066"+Replace this use of System.out by a logger.(Œý’è
+@	java:S106["+Replace this use of System.out by a logger.(Œý’è
+@	java:S106w"+Replace this use of System.out by a logger.(Œý’è
+M
+java:S6437Œ"6Revoke and change this password, as it is compromised.(ùà³„
+A	java:S106Ž"+Replace this use of System.out by a logger.(³îú–
