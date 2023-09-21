@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="aoptest" />
+        <module name="logex" />
         <module name="mysite03" />
         <module name="guestbook03" />
         <module name="emaillist03" />
