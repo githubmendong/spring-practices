@@ -29,8 +29,14 @@
 
     <!--파라미터 2개인 생성자로 빈 생성하기II-->
     <bean id="user4" class="com.poscodx.container.user.User">
-        <constructor-arg index="1" value="또치"/>
-        <constructor-arg index="0" value="33"/>
+        <constructor-arg index="1" value="도우너"/>
+        <constructor-arg index="0" value="4"/>
+    </bean>
+
+    <!-- setter 사용하기-->
+    <bean id="user5" class="com.poscodx.container.user.User">
+        <property name="no" value="5"/>
+        <property name="name" value="길동"/>
     </bean>
 
 </beans>
