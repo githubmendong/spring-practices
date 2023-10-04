@@ -11,7 +11,26 @@
         http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd
         http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd
         http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task.xsd">
+    <!--기본생성자로 빈 생성하기-->
+    <bean id="user" name="usr" class="com.poscodx.container.user.User"/>
 
-	<bean id="user" name="usr" class="com.poscodx.container.user.User" />
-	
+    <!--파라미터 1개인 생성자로 빈 생성하기-->
+    <bean id="user2" class="com.poscodx.container.user.User">
+        <constructor-arg value="마이콜"/>
+    </bean>
+
+
+    <!--파라미터 2개인 생성자로 빈 생성하기I-->
+    <bean id="user3" class="com.poscodx.container.user.User">
+        <constructor-arg value="33"/>
+        <constructor-arg value="또치"/>
+    </bean>
+
+
+    <!--파라미터 2개인 생성자로 빈 생성하기II-->
+    <bean id="user4" class="com.poscodx.container.user.User">
+        <constructor-arg index="1" value="또치"/>
+        <constructor-arg index="0" value="33"/>
+    </bean>
+
 </beans>
