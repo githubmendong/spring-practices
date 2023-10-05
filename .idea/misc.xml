@@ -16,6 +16,7 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/aopest/pom.xml" />
+        <option value="$PROJECT_DIR$/container/pom.xml" />
       </set>
     </option>
   </component>
